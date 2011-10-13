@@ -1,7 +1,8 @@
 
 header {
   margin-top: 10%;
-  background-color: #000;
+  background-image: url('bg_rex.png');
+  background-repeat: repeat;
   padding-bottom: 1%;
 }
 
