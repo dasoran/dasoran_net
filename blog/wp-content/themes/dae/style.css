@@ -1,0 +1,144 @@
+/*   
+Theme Name: dae
+Theme URI: http://dasoran.net/
+Description: a-brief-description
+Author: dasoran (Kyota Yasuda)
+Author URI: http://dasoran.net/
+Version: 1.0
+.
+This theme is my first theme :)
+.
+*/
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+#page {
+  margin-left: 1%;
+}
+
+#site-title > span > a{
+  text-decoration: none;
+  font-size: 4em;
+}
+
+#site-description {
+  margin-left: 1%;
+  margin-top: 5px;
+}
+
+#main {
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 95%;
+  display: -webkit-box;
+  display: -moz-box;
+}
+
+#mainContents {
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  width: 80%;
+}
+
+.post {
+  -webkit-box-shadow: 1px 1px 3px #000;
+  -moz-box-shadow: 1px 1px 3px #000;
+  padding-bottom: 10px;
+}
+
+.post > .title {
+  font-size: 2em;
+  height: 34px;
+  background-image: url('bg_rex.png');
+  background-repeat: repeat;
+}
+
+.post > .title > div.line1 {
+  width: 8px;
+  height: 34px;
+  background-color: #00f;
+
+  margin-right: 3px;
+  float: left;
+}
+
+.post > .title > h2 {
+  margin-left: 5px;
+}
+
+.post > .title > h2 > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.post > .date {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.post > .entry {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.post > .postmetadata {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#sidebar {
+  padding: 3px;
+  margin-left: 1%;
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  -moz-box-shadow: 1px 1px 3px #000;
+}
+
+li#search {
+  margin-bottom: 5px;
+}
+
+.widget-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.widget-first {
+  margin-top: 0px;
+}
+
+.widget-title-box {
+  border: solid #000;
+  border-width: 0px 0px 1px 0px;
+}
+
+.widget-title {
+  margin-left: 5px;
+  font-size: 1.5em;
+}
+
+.line2 {
+  width: 4px;
+  height: 24px;
+  background-color: #00f;
+
+  margin-right: 3px;
+  float: left;
+}
+
+
+
+footer {
+  margin-top: 10px;
+}
+
