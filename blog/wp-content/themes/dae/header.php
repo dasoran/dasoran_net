@@ -94,4 +94,3 @@
 	</header><!-- #branding -->
 
 
-	<div id="main">

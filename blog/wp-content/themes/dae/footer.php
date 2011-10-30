@@ -1,6 +1,5 @@
 <!-- footer is based on 'twentyeleven' -->
 
-</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">
 
