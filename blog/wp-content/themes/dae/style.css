@@ -1,41 +1,5 @@
-/*   
-Theme Name: dae
-Theme URI: http://dasoran.net/
-Description: a-brief-description
-Author: dasoran (Kyota Yasuda)
-Author URI: http://dasoran.net/
-Version: 1.0
-.
-This theme is my first theme :)
-.
-*/
-
-* {
-  font-family: 'Raleway', sans-serif;
-}
-
-a {
-  color: #000;
-}
-
-#page {
-  margin-left: 1%;
-}
-
-#site-title > span > a{
-  text-decoration: none;
-  font-size: 4em;
-}
-
-#site-description {
-  margin-left: 1%;
-  margin-top: 5px;
-}
 
 #main {
-  margin-top: 1%;
-  margin-left: 1%;
-  width: 95%;
   display: -webkit-box;
   display: -moz-box;
 }
@@ -55,9 +19,9 @@ a {
 .post > .title {
   font-size: 2em;
   height: 34px;
-  background-image: url('bg_rex.png');
-  background-repeat: repeat;
+  background-color: #444;
 }
+
 
 .post > .title > div.line1 {
   width: 8px;
@@ -142,9 +106,4 @@ li#search {
   float: left;
 }
 
-
-
-footer {
-  margin-top: 10px;
-}
 
