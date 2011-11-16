@@ -9,15 +9,15 @@
   -moz-box-ordinal-group: 1;
   -moz-box-flex: 1;
   width: 80%;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .post {
   -webkit-box-shadow: 1px 1px 3px #000;
   -moz-box-shadow: 1px 1px 3px #000;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .post > .title {
@@ -37,7 +37,7 @@
 }
 
 .post > .title > h2 {
-  margin-left: 5px;
+  margin-left: 0.5em;
 }
 
 .post > .title > h2 > a {
@@ -46,25 +46,38 @@
 }
 
 .post > .date {
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
 }
 
 .post > .entry {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: 2%;
   margin-right: 2%;
 }
 
 .post > .entry > p {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+.post > .entry > ul {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+}
+
+.post > .entry > ul > li {
+  list-style-type: disc;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .post > .postmetadata {
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
 }
 
 #sidebar {
@@ -79,7 +92,7 @@
 }
 
 li#search {
-  margin-bottom: 5px;
+  margin-bottom: 0.5em;
 }
 
 #s {
@@ -87,8 +100,8 @@ li#search {
 }
 
 .widget-container {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .widget-first {
@@ -101,7 +114,7 @@ li#search {
 }
 
 .widget-title {
-  margin-left: 5px;
+  margin-left: 0.5em;
   font-size: 1.5em;
 }
 
@@ -115,6 +128,6 @@ li#search {
 }
 
 footer {
-  margin-top: 10px;
+  margin-top: 1em;
 }
 
